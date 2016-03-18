@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/lista"
+    >
+
+    <!-- Emri Monedhes -->
+
+
+    <ImageView
+        android:id="@+id/icona"
+        android:src="@drawable/eur"
+        android:layout_width="37dp"
+        android:layout_height="37dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="30dp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="60dp"
+        android:textColor="@color/grija"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <!-- Blerja e monedhes -->
+    <TextView
+        android:id="@+id/buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingRight="20dp"
+        android:textColor="@color/grija"
+        android:textSize="24sp"/>
+
+    <!--Shitja e monedhes-->
+    <TextView
+        android:id="@+id/sell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@color/grija"
+        android:textSize="24sp" />
+
+
+
+</LinearLayout>
